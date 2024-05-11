@@ -48,7 +48,7 @@ function NoteItem({ note } : NoteItemProps ) {
   // };
 
   return (
-    <div className={`note-item ${note ? "completed" : ""}`} data-testId="note-item">
+    <div className={`note-item ${note.completed ? "completed" : ""}`} data-testId="note-item">
       <div className="note-item__header">
         <div>
           <p className="title">{note.title}</p>
