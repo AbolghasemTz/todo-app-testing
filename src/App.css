@@ -101,3 +101,43 @@
 .note-item__footer {
   color: var(--text-300);
 }
+
+
+@media (max-width: 768px) {
+  
+  .note-app{
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .add-new-note , .note-container{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .add-new-note h2 {
+    font-size: 1rem;
+  }
+
+  .note-status li ,span{
+    font-size: 0.8rem;
+  }
+  
+}
+@media (max-width: 600px) {
+  .note-header{
+    display: block;
+    
+  }
+  .note-header h1{
+    font-size: 1rem;
+  }
+  .note-header_select{
+    margin-bottom: 2rem;
+  }
+  .note-app{
+    display: block;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
